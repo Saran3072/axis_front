@@ -1,0 +1,55 @@
+.ap-screen {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ap-upper {
+  font-size: 0.75rem;
+  color: var(--thewhite);
+  font-weight: 600;
+  width: 96vw;
+  height: 25vh;
+  border-radius: 1rem;
+  background-image: url("/public/assets/Background.png");
+}
+.ap-upper p {
+  padding: 2rem;
+  font-size: 2rem;
+}
+.ap-middle textarea {
+  border-radius: 1rem;
+  margin: 1rem 0 0 0;
+  border: none;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.ap-lower textarea {
+  border-radius: 1rem;
+  margin: 1rem 0;
+  border: none;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+.ap-middle h3 {
+  padding: 1.5rem 0 0 0;
+}
+.ap-lower h3 {
+  padding: 1.5rem 0 0 0;
+}
+.ap-btn button {
+  padding: 1rem 6rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--thepop);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.ap-btn button:hover {
+  background-color: var(--theblack);
+  color: var(--thepop);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}

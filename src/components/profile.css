@@ -1,0 +1,135 @@
+.dboard-screen {
+  padding: 1rem;
+  display: flex;
+}
+
+.lp-button {
+  /* border: 2px solid black; */
+  display: flex;
+  padding: 0.5rem 4rem 0.5rem 1rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0.5px 0.5px 0.5px 0.5px; */
+  border-radius: 1rem;
+  color: rgb(141, 140, 140);
+}
+.lp-button:hover {
+  color: var(--theblack);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.lp-button:hover > .icon {
+  background-color: var(--thepop);
+  color: var(--thewhite);
+}
+.icon {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 1px 1px 1px;
+  color: var(--thepop);
+  border-radius: 0.5rem;
+}
+.lp-text {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+.left-align {
+  margin: 2rem 0;
+}
+/* right side */
+.right-part {
+  display: flex;
+  flex-direction: column;
+}
+.rp-upper {
+  font-size: 0.75rem;
+  color: var(--thewhite);
+  font-weight: 600;
+  width: 80vw;
+  height: 25vh;
+  border-radius: 1rem;
+  background-image: url("/public/assets/Background.png");
+}
+.rp-upper p {
+  padding: 2rem;
+  font-size: 2rem;
+}
+.rp-middle {
+  /* background-color: aqua; */
+  border: 2px dashed var(--thepop);
+  display: flex;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.rpm-align {
+  display: flex;
+  align-items: center;
+}
+.rpm-pic img {
+  height: 50px;
+  width: 50px;
+  margin-right: 0.75rem;
+  border-radius: 1rem;
+}
+.rpm-text h3 {
+  font-size: 0.85rem;
+}
+.rpm-text p {
+  font-size: 0.75rem;
+  color: rgb(141, 140, 140);
+}
+.rpm-buttons {
+  display: flex;
+  align-items: center;
+}
+.rpm-full-btn {
+  background-color: var(--thewhite);
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  margin: 0 1rem;
+}
+.rpm-full-btn button {
+  padding: 0.2rem 1rem;
+  border: none;
+  background-color: var(--thewhite);
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+.icon1 {
+  font-size: 0.85rem;
+  padding-left: 0.5rem;
+}
+.rpm-full-btn:hover {
+  background-color: var(--thepop);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.rpm-full-btn:hover > button {
+  background-color: var(--thepop);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.rp-lower {
+  border-radius: 1rem;
+  border: 2px dashed grey;
+  padding: 1rem 2rem;
+}
+.rpl-heading {
+  font-size: 0.75rem;
+}
+.rpl-heading h3 {
+  margin: 0 0 2rem 0;
+}
+.rpl-list-items {
+  font-size: 0.6rem;
+}
+.rpl-list-item {
+  margin: 1rem 0;
+}

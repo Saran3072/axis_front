@@ -1,0 +1,27 @@
+.round-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rli-right {
+  display: flex;
+  align-items: center;
+}
+.rli-pic img {
+  height: 35px;
+  width: 35px;
+  margin-right: 0.75rem;
+  border-radius: 0.5rem;
+}
+.rli-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rli-text h3 {
+  font-size: 0.75rem;
+}
+.rli-text p {
+  font-size: 0.65rem;
+  color: rgb(141, 140, 140);
+}

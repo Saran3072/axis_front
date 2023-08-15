@@ -1,0 +1,190 @@
+.sup-page {
+  background-image: radial-gradient(
+      closest-corner at 700px 400px,
+      rgba(0, 0, 0, 0.5),
+      rgba(8, 8, 8, 0.5)
+    ),
+    url("/public/assets/auth\ bg1.png");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 0 4rem;
+  color: var(--thewhite);
+  display: flex;
+  flex-direction: column;
+}
+
+#majorsub{
+
+}
+
+#fname {
+  padding: 1.5rem 17rem 1.5rem 1rem;
+  background-color: rgb(255, 255, 255, 0);
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 0.25rem 0.75rem;
+}
+#fname::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--thewhite);
+  opacity: 1; /* Firefox */
+}
+#phno {
+  padding: 1.5rem 17rem 1.5rem 1rem;
+  background-color: rgb(255, 255, 255, 0);
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 0.25rem 0.75rem;
+}
+#phno::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--thewhite);
+  opacity: 1; /* Firefox */
+}
+.form-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0 5vh 0;
+}
+.signupbutton {
+  padding: 1.25rem 7rem;
+  background-color: var(--thepop);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 0.25rem 0.75rem;
+}
+.signupbutton:hover {
+  background-color: var(--thewhite);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+/* form */
+.full-form {
+  padding: 3rem 0;
+  background-color: var(--thegrey);
+}
+.sup-form {
+  padding: 3rem 8rem 0rem 8rem;
+  background-color: var(--thegrey);
+  color: var(--thewhite);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sup-form-inner {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.sup-form-inner h3 {
+  margin-bottom: 1rem;
+}
+.sfi-line-1 {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 2rem;
+  background-color: var(--theinputgrey);
+  margin: 0.5rem 0 0.5rem 0;
+  border-radius: 2rem;
+}
+#degree {
+  display: flex;
+  padding: 1.25rem 50vw 1.25rem 2rem;
+  background-color: var(--theinputgrey);
+  border: none;
+}
+#degree::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+.sfi-line-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.sfi-line-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.sfi-line-2-input {
+  background-color: var(--theinputgrey);
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  border-radius: 2rem;
+  padding: 0 1.5rem;
+  color: var(--thewhite);
+}
+.sfi-line-2-input input {
+  padding: 1.25rem 9rem 1.25rem 1.5rem;
+  background-color: var(--theinputgrey);
+  border: none;
+  outline: none;
+  color: var(--thewhite);
+}
+#cgpa::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+#majorsub::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+#role::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+#clgyear::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+#passout::placeholder {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--thewhite);
+}
+.sfi-line-4 {
+  display: flex;
+}
+.sfi-line-4-input button {
+  background-color: var(--thepop);
+  display: flex;
+  align-items: center;
+  margin: 1rem 3rem 1rem 0rem;
+  border-radius: 2rem;
+  padding: 1rem 7rem;
+  border: none;
+  color: var(--theblack);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sfi-line-4-input button:hover {
+  background-color: var(--thewhite);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.big-btn button {
+  padding: 1.25rem 10rem;
+  border: none;
+  border-radius: 2.5rem;
+  background-color: var(--thepop);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.big-btn {
+  display: flex;
+  justify-content: center;
+}
+.big-btn button:hover {
+  cursor: pointer;
+  background-color: var(--thewhite);
+  transition: 0.3s ease-in-out;
+}

@@ -1,0 +1,9 @@
+.sin-page {
+  background-image: radial-gradient(
+      closest-corner at 700px 400px,
+      rgba(0, 0, 0, 0.5),
+      rgba(8, 8, 8, 0.5)
+    ),
+    url("/public/assets/auth\ bg1.png");
+  height: 140vh;
+}

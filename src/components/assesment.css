@@ -1,0 +1,66 @@
+.as-screen {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.as-upper {
+  font-size: 0.75rem;
+  color: var(--thewhite);
+  font-weight: 600;
+  width: 96vw;
+  height: 25vh;
+  border-radius: 1rem;
+  background-image: url("/public/assets/Background.png");
+}
+.as-upper p {
+  padding: 2rem;
+  font-size: 2rem;
+}
+.as-mid-top {
+  padding: 2rem 1rem;
+}
+.as-mid-top h3 {
+  margin: 0.5rem 0;
+}
+.as-mid-top p {
+  color: var(--theinputgrey);
+}
+.as-middle textarea {
+  border-radius: 1rem;
+  margin: 1rem 0 0 0;
+  border: none;
+  padding: 1rem;
+  border: 2px dashed var(--thepop);
+}
+.as-lower textarea {
+  border-radius: 1rem;
+  margin: 1rem 0;
+  border: none;
+  border: 2px dashed var(--thepop);
+
+  padding: 1rem;
+}
+.as-middle h3 {
+  padding: 1.5rem 0 0 0;
+}
+.as-lower h3 {
+  padding: 1.5rem 0 0 0;
+}
+.as-submit {
+  padding: 1rem 4rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: var(--thepop);
+  color: var(--theblack);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.as-submit:hover {
+  background-color: var(--theblack);
+  color: var(--thepop);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}

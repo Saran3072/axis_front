@@ -1,0 +1,50 @@
+.part-1 {
+  color: var(--theinputgrey);
+}
+.part-2 {
+  padding: 0 0 0.5rem 0;
+}
+.part-3 {
+  color: var(--theinputgrey);
+  line-height: 150%;
+  padding: 0 0 0.5rem 0;
+}
+.part-4 {
+  padding: 0.5rem 0;
+}
+.part-4 button {
+  background-color: var(--thewhite);
+  padding: 0.5rem 2rem;
+  border: 1px solid rgba(79, 209, 197, 1);
+  border-radius: 0.5rem;
+  color: rgba(79, 209, 197, 1);
+  font-weight: 600;
+}
+#link {
+  color: var(--theinputgrey);
+}
+.part-4 a {
+  text-decoration: none;
+  color: rgba(79, 209, 197, 1);
+}
+
+.part-4 button:hover {
+  background-color: rgba(79, 209, 197, 1);
+
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.part-4 button:hover > a {
+  color: var(--thewhite);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.rpl-list-item-1 {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+.rpl-list-item-1:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}

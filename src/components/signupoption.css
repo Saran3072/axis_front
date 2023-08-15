@@ -1,0 +1,67 @@
+.suo-backgrd {
+  height: 100vh;
+  background-color: var(--thepop);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.suo-backgrd h1 {
+  font-size: 3rem;
+  color: var(--theinputgrey);
+  padding-bottom: 4rem;
+}
+.btn-align {
+  display: flex;
+}
+.btn-align li {
+  list-style: none;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  background-color: var(--theinputgrey);
+  color: var(--thepop);
+  margin: 0 1rem;
+  border: none;
+}
+.btn-align li:hover {
+  background-color: var(--thewhite);
+  color: var(--theinputgrey);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn-align li:hover > a {
+  color: var(--theinputgrey);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.btn-align a {
+  color: var(--thepop);
+  text-decoration: none;
+  font-weight: 600;
+}
+.returnhome {
+  margin: 2rem;
+  padding: 1rem 3rem;
+  background-color: var(--thewhite);
+  border-radius: 1rem;
+  color: var(--theinputgrey);
+  border: none;
+  font-weight: 600;
+}
+.returnhome a {
+  color: var(--theinputgrey);
+  text-decoration: none;
+  font-weight: 600;
+}
+.returnhome:hover {
+  background-color: var(--theinputgrey);
+  color: var(--thepop);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.returnhome:hover > a {
+  color: var(--thepop);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}

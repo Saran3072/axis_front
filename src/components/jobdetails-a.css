@@ -1,0 +1,31 @@
+.rp-lower-a {
+  border-radius: 1rem;
+  border: 2px dashed grey;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  line-height: 150%;
+}
+.rpl-heading-a {
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.rpl-heading h3 {
+  margin: 0 0 2rem 0;
+}
+.rpl-list-items {
+  font-size: 0.6rem;
+}
+.rpl-list-item {
+  margin: 1rem 0;
+}
+.sfi-line-4-input {
+  display: flex;
+  justify-content: center;
+}
+.sfi-line-4-input button:hover {
+  background-color: var(--theblack);
+  color: var(--thepop);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}

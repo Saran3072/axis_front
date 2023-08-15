@@ -1,0 +1,17 @@
+:root {
+  /* colors */
+  --thepop: #ffd100;
+  --theblack: #000;
+  --thewhite: #ffffff;
+  --thegrey: #202020;
+  --bodysize: 3.75rem;
+  --theinputgrey: #363636;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
